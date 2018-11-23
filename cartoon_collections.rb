@@ -1,9 +1,15 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+require "pry"
+
+def roll_call_dwarves(array)
+  array.each.with_index(1)do|element,index|
+    puts "#{index}. #{element}"
+  end
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(array)
+  array.collect do|x|
+    "#{x.capitalize}!"
+  end
 end
 
 def long_planeteer_calls# code an argument here
