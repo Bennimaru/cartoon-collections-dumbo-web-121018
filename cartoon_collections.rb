@@ -1,7 +1,7 @@
 require "pry"
 
 def roll_call_dwarves(array)
-  array.each.with_index(1)do|element,index|
+  array.each.with_index(1) do|element,index|
     puts "#{index}. #{element}"
   end
 end
@@ -13,7 +13,7 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-  array.any?do|x|
+  array.any? do|x|
   x.length >4
   end 
 end
